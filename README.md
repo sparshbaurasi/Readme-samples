@@ -81,7 +81,6 @@ Create an IAM role with the following trust policy
     
     For workflow:
 
-    ```yaml
 
       name: AWS example workflow
       on:
@@ -102,4 +101,3 @@ Create an IAM role with the following trust policy
                 role-session-name: samplerolesession
                 aws-region:  AWS_REGION
     
-    ```
