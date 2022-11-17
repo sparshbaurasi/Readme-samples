@@ -79,8 +79,6 @@ Create an IAM role with the following trust policy
 
   1. Use the `aws-actions/configure-aws-credentials` action to exchange the OIDC token (JWT) for a cloud access token.
     
-    For workflow:
-
 
       name: AWS example workflow
       on:
