@@ -8,7 +8,7 @@ There are mainly four steps performed in order to configure OIDC from github to 
 
    _There are multiple methods for adding the identity provider to AWS fue of which are given below_
 
-  1. By AWS console:
+1. By AWS console:
     
   1. Open the IAM console at https://console.aws.amazon.com/iam/
   2. In the navigation pane, choose Identity providers, and then choose Add provider.
