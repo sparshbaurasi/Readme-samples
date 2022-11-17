@@ -29,7 +29,7 @@ _There are multiple methods for adding the identity provider to AWS fue of which
       }
 
 
-1. Configuring the role and trust policy
+2. Configuring the role and trust policy
 
 Create an IAM role with the following trust policy
 
@@ -56,7 +56,7 @@ Create an IAM role with the following trust policy
 }
 ```
 
-1. Updating your GitHub Actions workflow
+3. Updating your GitHub Actions workflow
   
   1. Add permissions settings for the token like following:
 
