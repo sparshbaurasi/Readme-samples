@@ -6,18 +6,18 @@ There are mainly four steps performed in order to configure OIDC from github to 
 
 1. Adding the identity provider to AWS
 
-* There are multiple methods for adding the identity provider to AWS fue of which are given below:
+_There are multiple methods for adding the identity provider to AWS fue of which are given below_
 
   1. By AWS console:
     
     1. Open the IAM console at https://console.aws.amazon.com/iam/
-    1. In the navigation pane, choose Identity providers, and then choose Add provider.
-    1. For Configure provider, choose OpenID Connect.
-    1. For Provider URL, type the URL of the IdP give `https://token.actions.githubusercontent.com` as input.
-    1. Choose Get thumbprint to verify the server certificate of your IdP.
-    1. For the "Audience": Use `sts.amazonaws.com` if you are using the official action.
+    2. In the navigation pane, choose Identity providers, and then choose Add provider.
+    3. For Configure provider, choose OpenID Connect.
+    4. For Provider URL, type the URL of the IdP give `https://token.actions.githubusercontent.com` as input.
+    5. Choose Get thumbprint to verify the server certificate of your IdP.
+    6. For the "Audience": Use `sts.amazonaws.com` if you are using the official action.
 
-  1. Using terraform:
+  2. Using terraform:
 
     1. Run the following terraform script for creating the identity provider:
       
