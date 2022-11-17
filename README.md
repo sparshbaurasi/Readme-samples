@@ -19,7 +19,7 @@ There are mainly four steps performed in order to configure OIDC from github to 
 
   2. Using terraform:
 
-    * Run the following terraform script for creating the identity provider:
+  Run the following terraform script for creating the identity provider:
       
 
       resource "aws_iam_openid_connect_provider" "main" {
