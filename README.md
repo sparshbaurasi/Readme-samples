@@ -62,22 +62,18 @@ Create an IAM role with the following trust policy
 
    For workflow:
     
-    ```yaml
     
     permissions:
         id-token: write # This is required for requesting the JWT
         contents: read  # This is required for actions/checkout
     
-    ```
-
+    
    For actions:
 
-    ```yaml
 
     permissions:
         id-token: write # This is required for requesting the JWT
     
-    ```
 
 
 
