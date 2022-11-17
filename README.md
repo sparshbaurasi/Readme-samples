@@ -19,7 +19,7 @@ _There are multiple methods for adding the identity provider to AWS fue of which
 
   2. Using terraform:
 
-    1. Run the following terraform script for creating the identity provider:
+    * Run the following terraform script for creating the identity provider:
       
 
       resource "aws_iam_openid_connect_provider" "main" {
@@ -58,7 +58,7 @@ Create an IAM role with the following trust policy
 
 3. Updating your GitHub Actions workflow
   
-  1. Add permissions settings for the token like following:
+  * Add permissions settings for the token like following:
 
    For workflow:
     
@@ -77,7 +77,7 @@ Create an IAM role with the following trust policy
 
 
 
-  1. Use the `aws-actions/configure-aws-credentials` action to exchange the OIDC token (JWT) for a cloud access token.
+  * Use the `aws-actions/configure-aws-credentials` action to exchange the OIDC token (JWT) for a cloud access token.
     
 
       name: AWS example workflow
