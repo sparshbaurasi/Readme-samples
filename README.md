@@ -21,7 +21,6 @@ There are mainly four steps performed in order to configure OIDC from github to 
 
     1. Run the following terraform script for creating the identity provider:
       
-      ```yaml
 
       resource "aws_iam_openid_connect_provider" "main" {
        url             = "https://token.actions.githubusercontent.com"
@@ -29,7 +28,6 @@ There are mainly four steps performed in order to configure OIDC from github to 
        thumbprint_list = ["6938fd4d98bab03faadb97b34396831e3780aea1"]
       }
 
-      ```
 
 1. Configuring the role and trust policy
 
