@@ -4,7 +4,7 @@ OpenID Connect (OIDC) allows your GitHub Actions workflows to access resources i
 
 There are mainly four steps performed in order to configure OIDC from github to aws which are as follows:
 
-1. Adding the identity provider to AWS
+## Adding the identity provider to AWS
 
    _There are multiple methods for adding the identity provider to AWS fue of which are given below_
 
@@ -29,7 +29,7 @@ There are mainly four steps performed in order to configure OIDC from github to 
       }
 
 
-2. Configuring the role and trust policy
+## Configuring the role and trust policy
 
 Create an IAM role with the following trust policy
 
@@ -56,7 +56,7 @@ Create an IAM role with the following trust policy
 }
 ```
 
-3. Updating your GitHub Actions workflow
+## Updating your GitHub Actions workflow
   
   * Add permissions settings for the token like following:
 
