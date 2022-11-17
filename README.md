@@ -6,7 +6,7 @@ There are mainly four steps performed in order to configure OIDC from github to 
 
 1. Adding the identity provider to AWS
 
-_There are multiple methods for adding the identity provider to AWS fue of which are given below_
+* _There are multiple methods for adding the identity provider to AWS fue of which are given below_
 
   1. By AWS console:
     
