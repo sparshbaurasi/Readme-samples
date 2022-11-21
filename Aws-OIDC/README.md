@@ -10,7 +10,7 @@ There are mainly four steps performed in order to configure OIDC from github to 
 
   1. By AWS console:
     
-    1. Open the IAM console at https://console.aws.amazon.com/iam/
+    ### Open the IAM console at https://console.aws.amazon.com/iam/
     2. In the navigation pane, choose Identity providers, and then choose Add provider.
     3. For Configure provider, choose OpenID Connect.
     4. For Provider URL, type the URL of the IdP give `https://token.actions.githubusercontent.com` as input.
